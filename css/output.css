@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&family=Shizuru&display=swap');
-
 /*! tailwindcss v2.2.19 | MIT License | https://tailwindcss.com */
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
@@ -18069,6 +18067,18 @@ video {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
+.bg-desktop-bg{
+  background-image: url('/images/pattern-background-desktop.svg');
+}
+
+.bg-mobile-bg{
+  background-image: url('/images/pattern-background-mobile.svg');
+}
+
+.bg-illu-hero{
+  background-image: url('/images/illustration-hero.svg');
+}
+
 .from-transparent{
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -21627,6 +21637,10 @@ video {
   background-position: top;
 }
 
+.bg-top-4{
+  background-position: center top -50%;
+}
+
 .bg-repeat{
   background-repeat: repeat;
 }
@@ -22857,10 +22871,6 @@ video {
 
 .font-redHat{
   font-family: Red Hat Display;
-}
-
-.font-shizuru{
-  font-family: Shizuru;
 }
 
 .text-xs{
@@ -50557,6 +50567,18 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .sm\:bg-desktop-bg{
+    background-image: url('/images/pattern-background-desktop.svg');
+  }
+
+  .sm\:bg-mobile-bg{
+    background-image: url('/images/pattern-background-mobile.svg');
+  }
+
+  .sm\:bg-illu-hero{
+    background-image: url('/images/illustration-hero.svg');
+  }
+
   .sm\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -54115,6 +54137,10 @@ video {
     background-position: top;
   }
 
+  .sm\:bg-top-4{
+    background-position: center top -50%;
+  }
+
   .sm\:bg-repeat{
     background-repeat: repeat;
   }
@@ -55345,10 +55371,6 @@ video {
 
   .sm\:font-redHat{
     font-family: Red Hat Display;
-  }
-
-  .sm\:font-shizuru{
-    font-family: Shizuru;
   }
 
   .sm\:text-xs{
@@ -82673,6 +82695,18 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .md\:bg-desktop-bg{
+    background-image: url('/images/pattern-background-desktop.svg');
+  }
+
+  .md\:bg-mobile-bg{
+    background-image: url('/images/pattern-background-mobile.svg');
+  }
+
+  .md\:bg-illu-hero{
+    background-image: url('/images/illustration-hero.svg');
+  }
+
   .md\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -86231,6 +86265,10 @@ video {
     background-position: top;
   }
 
+  .md\:bg-top-4{
+    background-position: center top -50%;
+  }
+
   .md\:bg-repeat{
     background-repeat: repeat;
   }
@@ -87461,10 +87499,6 @@ video {
 
   .md\:font-redHat{
     font-family: Red Hat Display;
-  }
-
-  .md\:font-shizuru{
-    font-family: Shizuru;
   }
 
   .md\:text-xs{
@@ -114789,6 +114823,18 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .lg\:bg-desktop-bg{
+    background-image: url('/images/pattern-background-desktop.svg');
+  }
+
+  .lg\:bg-mobile-bg{
+    background-image: url('/images/pattern-background-mobile.svg');
+  }
+
+  .lg\:bg-illu-hero{
+    background-image: url('/images/illustration-hero.svg');
+  }
+
   .lg\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -118347,6 +118393,10 @@ video {
     background-position: top;
   }
 
+  .lg\:bg-top-4{
+    background-position: center top -50%;
+  }
+
   .lg\:bg-repeat{
     background-repeat: repeat;
   }
@@ -119577,10 +119627,6 @@ video {
 
   .lg\:font-redHat{
     font-family: Red Hat Display;
-  }
-
-  .lg\:font-shizuru{
-    font-family: Shizuru;
   }
 
   .lg\:text-xs{
@@ -146905,6 +146951,18 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .xl\:bg-desktop-bg{
+    background-image: url('/images/pattern-background-desktop.svg');
+  }
+
+  .xl\:bg-mobile-bg{
+    background-image: url('/images/pattern-background-mobile.svg');
+  }
+
+  .xl\:bg-illu-hero{
+    background-image: url('/images/illustration-hero.svg');
+  }
+
   .xl\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -150463,6 +150521,10 @@ video {
     background-position: top;
   }
 
+  .xl\:bg-top-4{
+    background-position: center top -50%;
+  }
+
   .xl\:bg-repeat{
     background-repeat: repeat;
   }
@@ -151693,10 +151755,6 @@ video {
 
   .xl\:font-redHat{
     font-family: Red Hat Display;
-  }
-
-  .xl\:font-shizuru{
-    font-family: Shizuru;
   }
 
   .xl\:text-xs{
@@ -179021,6 +179079,18 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .\32xl\:bg-desktop-bg{
+    background-image: url('/images/pattern-background-desktop.svg');
+  }
+
+  .\32xl\:bg-mobile-bg{
+    background-image: url('/images/pattern-background-mobile.svg');
+  }
+
+  .\32xl\:bg-illu-hero{
+    background-image: url('/images/illustration-hero.svg');
+  }
+
   .\32xl\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -182579,6 +182649,10 @@ video {
     background-position: top;
   }
 
+  .\32xl\:bg-top-4{
+    background-position: center top -50%;
+  }
+
   .\32xl\:bg-repeat{
     background-repeat: repeat;
   }
@@ -183809,10 +183883,6 @@ video {
 
   .\32xl\:font-redHat{
     font-family: Red Hat Display;
-  }
-
-  .\32xl\:font-shizuru{
-    font-family: Shizuru;
   }
 
   .\32xl\:text-xs{

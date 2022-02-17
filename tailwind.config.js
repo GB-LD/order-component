@@ -3,8 +3,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        'redHat': 'Red Hat Display',
-        'shizuru': 'Shizuru'
+        'redHat': 'Red Hat Display'
       },
       colors:{
         myBlue: {
@@ -14,7 +13,15 @@ module.exports = {
           750: '#3829e0',
           850: '#1f2f56'
         }
-      }
+      },
+      backgroundImage: {
+        'desktop-bg': "url('/images/pattern-background-desktop.svg')",
+        'mobile-bg': "url('/images/pattern-background-mobile.svg')",
+        'illu-hero': "url('/images/illustration-hero.svg')"
+      },
+      backgroundPosition: {    
+      'top-4': 'center top -50%'    
+      } 
     },
   },
   plugins: [],
